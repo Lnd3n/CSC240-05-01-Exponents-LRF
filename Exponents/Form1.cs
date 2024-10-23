@@ -48,6 +48,7 @@ namespace Exponents
             CuOutLabel.Visible = true;
             // turn the Go button off
             GoButton.Enabled = false;
+            InputTextBox.Enabled = false;
         }
 
         public int Square(int num)
